@@ -13,7 +13,7 @@ Kinsta is a developer-centric cloud host / PaaS. We’re striving to make it eas
 
 ## Dependency Management
 
-During the deployment process, Kinsta will automatically install dependencies defined in your `package.json` file.
+Kinsta automatically installs dependencies defined in your `package.json` file during the deployment process.
 
 ## Web Server Setup
 
@@ -23,23 +23,11 @@ Kinsta automatically sets the `PORT` environment variable. You should **not** de
 
 ### Start Command
 
-When deploying an application Kinsta will automatically create a web process with `npm start` as the entry point. Make sure to use this command to run your server.
+When deploying an application, Kinsta automatically creates a web process with `npm start` as the entry point. Make sure to use this command to run your server.
 
 ## Deployment Lifecycle
 
 Whenever a deployment is initiated (through creating an application or re-deploying due to an incoming commit) the `npm build` command is run, followed by the `npm start` command.
 
 ## What is NuxtJS
-**NuxtJS** is shipped with plenty of features to boost developer productivity and the end user experience.
-
-### Key Features
-- **Zero Configuration** - Start coding your app right away, Nuxt takes care of the rest.
-- **File-system Routing** - Automatic routing and code-splitting for every page.
-- **Rendering Modes** - Switch between static-site generation or on-demand server rendering.
-- **Data Fetching** - Fetch your content from any source in your Vue components, SSR ready.
-- **Strong Conventions** - Efficient teamwork with a strong directory structure and conventions.
-- **SEO Friendly** - Meta tag management and faster time-to-content for great indexing.
-- **Components Auto-import** - Use your components, Nuxt will import them with smart code-splitting.
-- **Modules Ecosystem** - Extend your app with 160+ Nuxt modules and create your own.
-
-More info on the [Nuxtjs.org](https://nuxtjs.org/) website.
+NuxtJS is an open-source web development framework that allows you to build server-side rendered Vue.js applications and static sites. More information is available on the [Nuxtjs.org](https://nuxtjs.org/) website.
