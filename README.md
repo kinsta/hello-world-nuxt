@@ -1,4 +1,3 @@
-![Photo by Joshua Woroniecki on Unsplash](https://user-images.githubusercontent.com/2342458/204334325-7625b781-db8a-40b5-ac3c-91f2d7c8c526.png)
 # Kinsta - Hello World - NuxtJS
 
 An example of how to deploy a **NuxtJS** application on Kinsta.

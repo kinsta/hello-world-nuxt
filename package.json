@@ -4,10 +4,9 @@
     "dev": "nuxt build && nuxt start",
     "build": "nuxt generate",
     "generate": "nuxt generate",
-    "start": "serve ./.output/public"
+    "start": "npx -y serve ./.output/public"
   },
   "dependencies": {
-    "nuxt": "^3.0.0",
-    "serve": "^14.1.2"
+    "nuxt": "^3.9.0"
   }
 }
